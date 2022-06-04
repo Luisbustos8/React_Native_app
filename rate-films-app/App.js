@@ -1,13 +1,9 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import { StyleSheet } from "react-native";
+import Main from "./scr/components/Main.jsx";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hola Aston!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Main />;
 }
 
 const styles = StyleSheet.create({
